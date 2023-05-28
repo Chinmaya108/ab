@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18,18,62)
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 25px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0px;
+}
+.firstsection> div{
+    width: 30%;
+}
+.lefts{
+    font-size: 3rem;
+}
+.rights img{
+    width: 80%;
+}
+.color{
+    color: rgb(137, 107, 166);
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(27, 27, 198);
+    font-size: 1.05rem;
+}
+#element{
+    color: rgb(137, 137, 219);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.thirdsection{
+    height: 250px;
+}
+.gray{
+    color: gray;
+    font-size: 20px;
+}
+.about{
+    height: 20vw;
+}
+.edu{
+    color: rgb(119, 77, 236);
+}
+.project{
+    margin: 0 150px;
+}
+.ull{
+    margin: 15px;
+}
+.footer{
+    margin: -6px;
+}
+.anch :hover{
+    color: bisque;
+}

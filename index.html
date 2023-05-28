@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="lefts">Hi, Iam <span class="color">abcdefghi</span>
+                <div>and Iam an <div>
+                        <span id="element"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="rights"><img src="Web-Designing-Transparent-PNG.png" alt="Not avail"></div>
+        </section>
+        <section class="secondsection">
+            <div></div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <div class="about" id="about">
+                <span class="gray"><b>About Me</b></span><br><br>
+                <p>My name is Chinmaya and Iam from Kasaragod, Kerala and Iam an Engineer Graduate (2023)</p>
+                <br>
+                <h3 class="edu">Education</h3><br>
+                SSLC - VJEMS (2016-17) &nbsp;&nbsp;<progress id="file" value="91" max="100"></progress>&nbsp; 91% <br><br>
+                PU - VPUC (2017-19)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <progress id="file" value="89"
+                    max="100"></progress> &nbsp; 89%<br><br>
+                BE - CEC (2019-23) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<progress id="file"
+                    value="8.7" max="10"></progress>&nbsp; 8.7 CGPA <br><br>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection">
+            <div class="project" id="project">
+                <span class="gray"><b>Projects</b></span><br><br>
+                <ul>
+                    <li class="ull">Library Management System</li>
+                    <li class="ull">Police Station Crime Reporting & Management System</li>
+                    <li class="ull">Voice Based Email For Visually Challenged</li>
+                </ul>          
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <nav>
+            <div class="footerl">
+                <img src="download.png" alt="not avail" height="25px" width="25px" class="footer">&nbsp;&nbsp;&nbsp;&nbsp;Contact :- <a href="https://www.gmail.com" target="_blank" class="anch">chinmaya@gmail.com</a>
+            </div>
+        </nav>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer!!', 'Editor!!', 'Engineer!!'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
